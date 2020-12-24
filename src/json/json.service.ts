@@ -16,8 +16,6 @@ export class JsonService {
         });
 
         rawJson.messages.forEach(element => {
-            console.log(element);
-
             let comments = [];
             if (element.comments) {
                 element.comments.forEach(comment => {
