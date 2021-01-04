@@ -5,9 +5,21 @@ const path = require('path');
 
 @Injectable()
 export class JsonService {
+
+    async getAllJson(): Promise<string> {
+        let fileList = await fs.readdirSync(`${path.resolve(__dirname, '')}/../../src/json/files`);
+        let filterFileList = fileList.map(file => file.replace('.json', ''));
+        let outputJson = {
+            status: "1000",
+            data: {
+                boards: filterFileList
+            }
+        }
+        return JSON.stringify(outputJson);
+    }
     
     async getDataFromJson(id: string): Promise<string> {
-        let rawData = await fs.readFileSync(path.resolve(__dirname, '') + '/../../src/json/files/' + id + '.json');
+        let rawData = await fs.readFileSync(`${path.resolve(__dirname, '')}/../../src/json/files/${id}.json`);
         let rawJson = JSON.parse(rawData.toString());
 
         let boards = [];
