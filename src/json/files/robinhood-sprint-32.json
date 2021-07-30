@@ -1,0 +1,96 @@
+{
+    "archived": false,
+    "boardName": "Robinhood : Retrospective Sprint 32",
+    "columns": [
+        {
+            "color": 1,
+            "id": 1,
+            "value": "Good"
+        },
+        {
+            "color": 2,
+            "id": 2,
+            "value": "Bad"
+        },
+        {
+            "color": 3,
+            "id": 3,
+            "value": "Try"
+        },
+        {
+            "color": 6,
+            "id": 4,
+            "value": "Top Vote"
+        }
+    ],
+    "date_created": "2021-07-16T06:44:37.077Z",
+    "messages": [
+        {
+            "comments": [
+                {
+                    "date": "2021-03-26T08:36:38.217Z",
+                    "text": "1. dev กับ qa ใส่ไว้ใน sub task\n2. ให้ senior review แล้วใส่ใน Epic CR prod-incident\n3. จบ Sprint แล้ว มารวบรวมคะแนนกัน",
+                    "owner": "rockon23146@gmail.com"
+                },
+                {
+                    "date": "2021-06-21T07:45:22.291Z",
+                    "text": "ขอวันนี้นะ"
+                },
+                {
+                    "date": "2021-03-26T08:40:00.378Z",
+                    "text": "รวบรวมคะแนน Sprint 24 กับ Sprint 25",
+                    "owner": "rockon23146@gmail.com"
+                },
+                {
+                    "date": "2021-03-26T08:36:02.877Z",
+                    "text": "Sprint ที่แล้วไม่ได้ทำ เพราะสรุปงานดึก",
+                    "owner": "rockon23146@gmail.com"
+                },
+                {
+                    "date": "2021-06-07T08:10:33.573Z",
+                    "text": "ใส่ Point ใน June Release",
+                    "owner": "rockon23146@gmail.com"
+                }
+            ],
+            "date": "2021-03-12T08:28:46.180Z",
+            "date_created": "2021-03-12T08:28:46.180Z",
+            "text": "ลองใช้ Story Point ในการประเมินงานเข้ามาจริงๆจังๆดีไหม --- อยาก estimate effort ให้ออกมาเป๊ะๆกว่านี้\n---\nยังไม่มีเวลาทำ Effort Analysis ย้อนหลังให้เลย ขอโทษทีนะค้าบ",
+            "type": {
+                "id": 4
+            },
+            "owner": "rockon23146@gmail.com"
+        },
+        {
+            "date": "2021-07-16T06:46:33.307Z",
+            "date_created": "2021-07-16T06:46:33.307Z",
+            "text": "ยินดีต้อนรับสมาชิกใหม่ทุกๆ คน ทุกๆ role เลยน้า",
+            "type": {
+                "id": 1
+            }
+        },
+        {
+            "comments": [
+                {
+                    "date": "2021-06-07T07:43:37.529Z",
+                    "text": "ลองคุยแชร์ idea กันไหม"
+                },
+                {
+                    "date": "2021-06-07T07:40:45.794Z",
+                    "text": "ยกตัวอย่างหน่อยสิ"
+                },
+                {
+                    "date": "2021-06-07T07:54:15.394Z",
+                    "text": "DEV + QA List ปัญหาที่เจอในการทำ Automated Testing",
+                    "owner": "rockon23146@gmail.com"
+                }
+            ],
+            "date": "2021-06-07T07:37:05.559Z",
+            "date_created": "2021-06-07T07:37:05.559Z",
+            "text": "จะทำ KPI เรื่อง ช่วยเรื่อง Automate ยังไงดี นึกไม่ออกกกกกก",
+            "type": {
+                "id": 4
+            }
+        }
+    ],
+    "owner": "rockon23146@gmail.com"
+}
